@@ -1,0 +1,113 @@
+* {
+  background: rgb(134, 115, 161);
+}
+
+#title {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: #d5c6e0;
+  margin: 60px 60px;
+  outline: 0;
+  border: 0;
+}
+
+#subtitle {
+  text-align: center;
+  background: white;
+  margin: 90px 90px;
+  border-radius: 60%;
+  border: 5px solid black;
+}
+.text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+@keyframes color {
+  0% {
+    color: red;
+  }
+  10% {
+    color: green;
+  }
+  20% {
+    color: purple;
+  }
+  30% {
+    color: blue;
+  }
+  40% {
+    color: aqua;
+  }
+  50% {
+    color: orangered;
+  }
+  60% {
+    color: palevioletred;
+  }
+  70% {
+    color: cyan;
+  }
+  80% {
+    color: yellow;
+  }
+  90% {
+    color: orange;
+  }
+  100% {
+    color: violet;
+  }
+}
+
+.tech,
+.science,
+.contact,
+.about {
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+  margin: 4rem;
+  border: 6px outset white;
+  padding: 0.1rem;
+  outline: 3px solid black;
+  outline-offset: -5px;
+  color: #26252d;
+  animation-name: color;
+  animation-duration: 10s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  background: white;
+}
+
+p {
+  text-indent: 10px;
+}
+
+.text h2 {
+  text-align: center;
+  box-shadow: 10px 10px rgba(0, 0, 255, 0.6);
+  background: white;
+  border: outset inset black 6px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.text h1 {
+  text-align: center;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+  background: white;
+  border: outset inset black 6px;
+  margin-left: 90px;
+  outline-offset: -2px;
+  margin-right: 90px;
+}
+
+img.Frame {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: double black 6px;
+  outline: inset brown 6px;
+  outline-offset: -2px;
+}

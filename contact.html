@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <title>SSP - Contact Page</title>
+  </head>
+  <body>
+    <h1 id="title">Contact Page</h1>
+    <a href="technology.html" class="tech">Technology</a>
+    <a href="science.html" class="science">Science</a>
+    <a href="about.html" class="about">About</a>
+    <a href="main.html" class="main">Main</a>
+    <br />
+
+    <form>
+      <div class="text">
+        <p>Before anything, please rate our site!</p>
+        <p>
+          <strong>
+            From the choices below, which one more fits what you think about our
+            site?
+          </strong>
+        </p>
+      </div>
+      <div class="rate" class="text">
+        <input type="radio" name="rate" id="" value="Bad" /> Bad
+        <input type="radio" name="rate" id="" value="Regular" />Regular
+        <input type="radio" name="rate" id="" value="Good" />Good
+        <input type="radio" name="rate" id="" value="Very Good" />Very Good
+      </div>
+      <br />
+      <br />
+
+      <p class="text"><strong> What is your favorite page? </strong></p>
+      <input type="radio" name="page" value="Science" /> Science
+      <input type="radio" name="page" value="Technology" /> Technology
+      <input type="radio" name="page" value="Main" /> Main
+      <input type="radio" name="page" value="None" /> None noob, lol
+      <br />
+      <br />
+      <p class="text"><strong> How the design looked like? </strong></p>
+      <input type="radio" name="rate2" value="Bad" /> Bad
+      <input type="radio" name="rate2" value="Regular" /> Regular
+      <input type="radio" name="rate2" value="Good" /> Good
+      <input type="radio" name="rate2" value="Very good" /> Very good
+      <br />
+      <br />
+      <p class="text">
+        Ok, now we will need your data to send you our support message!
+      </p>
+      <label for="name">First Name:</label>
+      <input
+        type="text"
+        id="name"
+        placeholder="Put your full name"
+        class="white_background"
+      />
+      <br />
+      <br />
+      <label for="telephone">Telephone: </label>
+      <input
+        class="white_background"
+        type="text"
+        id="telephone"
+        placeholder="Put your telephone number"
+      />
+      <br />
+      <br />
+
+      <select
+        name="countries"
+        placeholder="Select your country"
+        class="white_background"
+      >
+        <option value="none" class="white_background">
+          ------Select a country--------
+        </option>
+        <option value="USA" class="white_background">
+          United States of America
+        </option>
+        <option value="BR" class="white_background">Brazil</option>
+        <option value="CHI" class="white_background">China</option>
+        <option value="EN" class="white_background">England</option>
+        <option value="FR" class="white_background">France</option>
+        <option value="AUS" class="white_background">Australia</option>
+        <option value="NZ" class="white_background">New Zealand</option>
+        <option value="JP" class="white_background">Japan</option>
+        <option value="MX" class="white_background">Mexico</option>
+        <option value="CN" class="white_background">Canada</option>
+        <option value="GER" class="white_background">Germany</option>
+        <option value="ITA" class="white_background">Italy</option>
+        <option value="SA" class="white_background">South Africa</option>
+        <option value="SWE" class="white_background">Sweden</option>
+        <option value="NOR" class="white_background">Norway</option>
+      </select>
+      <br />
+      <br />
+      <br />
+
+      <label for="email">Insert your email: </label>
+      <input type="email" id="email" class="white_background" />
+      <br />
+      <br />
+      <br />
+      <p class="text">
+        <strong class="finish_sentence">
+          Feel free to comment anything!
+        </strong>
+      </p>
+      <br />
+      <br />
+      <br />
+      <textarea
+        cols="40"
+        rows="5"
+        placeholder="Explore your astonishing ideas!"
+        class="white_background"
+      ></textarea>
+      <br />
+      <button type="submit">Finish</button>
+    </form>
+    <br />
+  </body>
+</html>

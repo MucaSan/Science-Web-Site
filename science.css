@@ -1,0 +1,145 @@
+* {
+  background: #5584ac;
+}
+.sticker1 {
+  text-align: center;
+  font-size: 50px;
+  border-radius: 20%;
+  padding: 10px;
+  outline: dotted black;
+  outline-offset: -15px;
+  background: white;
+  box-shadow: 5px 5px 5px 5px rgba(0, 50, 255, 0.7);
+  color: darkblue;
+}
+.sticker2 {
+  text-align: center;
+  border-radius: 30%;
+  font-size: 50px;
+  padding: 10px;
+  outline: double black;
+  outline-offset: -10px;
+  background: white;
+  box-shadow: 5px 5px 5px 5px pink;
+  color: pink;
+}
+.sticker3 {
+  text-align: center;
+  font-size: 50px;
+  padding: 10px;
+  outline: dashed black;
+  outline-offset: -10px;
+  background: white;
+  box-shadow: 5px 5px 5px 5px rgba(255, 0, 0, 0.7);
+  color: red;
+}
+
+#title {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: white;
+  margin: 90px 90px;
+  border-radius: 60%;
+  border: 5px solid black;
+  outline: 0;
+  outline-offset: 0;
+}
+
+h1 {
+  background: white;
+  margin: red;
+  margin-right: 43.3rem;
+  outline: 5px double black;
+}
+
+.text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: larger;
+  text-indent: 20px;
+}
+@keyframes color {
+  0% {
+    color: red;
+  }
+  10% {
+    color: green;
+  }
+  20% {
+    color: purple;
+  }
+  30% {
+    color: blue;
+  }
+  40% {
+    color: aqua;
+  }
+  50% {
+    color: orangered;
+  }
+  60% {
+    color: palevioletred;
+  }
+  70% {
+    color: cyan;
+  }
+  80% {
+    color: yellow;
+  }
+  90% {
+    color: orange;
+  }
+  100% {
+    color: violet;
+  }
+}
+
+.main,
+.tech,
+.contact,
+.about {
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+  margin: 4rem;
+  border: 6px outset white;
+  padding: 0.1rem;
+  outline: 3px solid black;
+  outline-offset: -5px;
+  color: #26252d;
+  animation-name: color;
+  animation-duration: 10s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  background: white;
+}
+ol {
+}
+li {
+  font-size: 20px;
+  font-style: bold;
+  text-decoration: underline dashed;
+}
+
+table {
+  background: black;
+}
+
+th {
+  background: white;
+  padding: 10px;
+}
+/*Fix this problem, it isn't working on the main */
+
+.start {
+  background-color: grey;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: bold;
+  font-style: italic;
+}

@@ -1,0 +1,120 @@
+* {
+  background: #92ba92;
+}
+ul {
+  font-size: 20px;
+  font-style: italic;
+  text-decoration: underline dotted black;
+}
+
+@keyframes color {
+  0% {
+    color: red;
+  }
+  10% {
+    color: green;
+  }
+  20% {
+    color: purple;
+  }
+  30% {
+    color: blue;
+  }
+  40% {
+    color: aqua;
+  }
+  50% {
+    color: orangered;
+  }
+  60% {
+    color: palevioletred;
+  }
+  70% {
+    color: cyan;
+  }
+  80% {
+    color: yellow;
+  }
+  90% {
+    color: orange;
+  }
+  100% {
+    color: violet;
+  }
+}
+
+a {
+  font-size: large;
+}
+h1.Revolution,
+h1.subtitles,
+h1.End {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: rgba(30, 50, 200, 0.9);
+}
+#title {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: #d5c6e0;
+  background: white;
+  margin: 90px 90px;
+  border-radius: 60%;
+  border: 5px solid black;
+}
+.text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+.main,
+.science,
+.contact,
+.about {
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+  margin: 4rem;
+  border: 6px outset white;
+  padding: 0.1rem;
+  outline: 3px solid black;
+  outline-offset: -5px;
+  color: #26252d;
+  animation-name: color;
+  animation-duration: 10s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  background: white;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: larger;
+  text-indent: 20px;
+}
+/*Check this problem, you should solve it. Don't go past it.*/
+
+.contrast {
+  text-decoration: solid;
+  color: red;
+}
+
+.smile {
+  color: #370617;
+}
+
+.sticker {
+  border: solid 5px;
+  font-size: 25px;
+  font-style: bold;
+  border-radius: 100px;
+  border-left: -8rem;
+  padding-top: -5rem;
+  padding-bottom: -5rem;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  margin-top: -3.5rem;
+  text-align: center;
+  background: #f72585;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.6);
+}
